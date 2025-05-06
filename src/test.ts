@@ -5,14 +5,19 @@ import { ToObject } from "./basic_data_types";
 
 let testData = "Hello";
 
-console.log(testData);
+// console.log(testData);
 
 // obj
 
 const objectTwo: ToObject = {
   //   email: "sahabulislamsifat@gmail.com",
-  name: "Sajul",
-  age: 2004,
+
+  name: "Sifat",
+  age: 22,
+  education: {
+    institute: "University",
+    level: "Undergraduate",
+  },
 };
 
 console.log(objectTwo);

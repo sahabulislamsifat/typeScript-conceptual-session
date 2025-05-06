@@ -28,16 +28,22 @@ let arr: number[] = [1, 2, 3, 4, 5];
 export type ToObject = {
   name: "Sifat";
   age: 22;
-  education: {
-    institute: "Govt Titumir College";
+  education?: {
+    institute:
+      | "Govt Titumir College"
+      | "University"
+      | "College"
+      | "Diploma"
+      | "School";
     level: "Undergraduate";
   };
+};
 
-  // export const obj = {
-  //   name: "Sifat",
-  //   age: 22,
-  //   education: {
-  //     institute: "Govt Titumir College",
-  //     level: "Undergraduate",
-  //   },
+export const obj = {
+  name: "Sifat",
+  age: 22,
+  education: {
+    institute: "Govt Titumir College",
+    level: "Undergraduate",
+  },
 };
